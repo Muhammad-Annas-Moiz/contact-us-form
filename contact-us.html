@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(icons8-favicon-16.png);
+        }
+        div form{
+            background-color: aqua;
+            width: 250px;
+            height: 500px;
+            margin: 200px;
+            margin-left: 500px;
+            margin-bottom: 500px;
+            border-style: double;
+            border-radius: 20px;
+            flex: content;
+            justify-content: center;
+            align-items: center;
+        }
+        .name{
+            justify-content: left;
+            display: flex;
+            border-radius: 5px;
+            margin-left: 30px;
+        }
+        .username{
+            justify-content: left;
+            display: flex;
+            border-radius: 5px;
+            margin-left: 30px;
+        }
+        .password{
+            justify-content: left;
+            display: flex;
+            border-radius: 50px;
+            margin-left: 30px;
+        }
+        .message{
+            justify-content: left;
+            display: flex;
+            border-radius: 5px;
+            height: 90px;
+            width:100px;
+            margin-left: 30px;
+        }
+        .login{
+            justify-content: center;
+            display: flex;
+            margin-left: 100px;
+        }
+        h1{
+            text-align: left;
+            margin-left: 15px;
+        }
+        p{
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form>
+            <h1>LOG IN FORM</h1>
+            <p>Name:</p>
+            <label class="name">
+                <input type="text">
+            </label>
+            <p>E-mail:</p>
+            <label class="username">
+                <input type="email">
+            </label>
+            <p>Password:</p>
+            <label class="password">
+                <input type="password">
+            </label>
+            <p>message:</p>
+            <label class="message">
+                <input type="text">
+            </label>
+           <br><br>
+            <button class="login">
+                LOGIN
+            </button>
+        </form>
+    </div>
+</body>
+</html>
